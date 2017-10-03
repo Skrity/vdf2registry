@@ -2,10 +2,12 @@
 Extract Registry entries from .vdf file.
 Use case: Steam Games that won't work without Reg entries from .vdf file.
   e.g. Muv-Luv, Muv-Luv Alternative.
+        Fixes RuntimeError(1006): https://i.imgur.com/wj9NfBx.png
+
 
 Dependencies:
   * VC++ 2015 redist (may or may not be needed to run)
-  * https://pypi.python.org/pypi/vdf (required to freeze)
+  * https://pypi.python.org/pypi/vdf (required to run from source or freeze)
   * PyInstaller used to build
 
 Usage:
